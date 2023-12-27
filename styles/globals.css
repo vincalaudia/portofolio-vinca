@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +26,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .nav-link {
+    @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block after:block
+    after:content-[''] after:absolute after:h-[1px] after:bg-[#EADCBA] after:w-full after:scale-x-0
+    after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden;
+  }
+
+  .nav-link-mobile {
+    @apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[27px] w-fit md:block after:block 
+    after:content-[''] after:absolute after:h-[1px] after:bg-[#EADCBA] after:w-full after:scale-x-0 
+    after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+  }
+
+  .heading {
+    @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold;
+  }
 }
