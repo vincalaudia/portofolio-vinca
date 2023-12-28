@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
 import Buttons from "./Buttons";
 import { useEffect } from "react";
 import AOS from "aos";

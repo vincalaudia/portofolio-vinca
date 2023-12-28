@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const index = ({ project }: { project: any }) => {
+const ProjectPage = ({ project }: { project: any }) => {
   if (!project) {
     return <div>Project not found</div>;
   }
@@ -17,4 +17,4 @@ const index = ({ project }: { project: any }) => {
   );
 };
 
-export default index;
+export default ProjectPage;

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Image from "next/image";
 import Card from "./Card";
 import { BsArrowRight } from "react-icons/bs";
 import AOS from "aos";

@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Card from "@/Components/Card";
-import Navbar from "@/Components/Nav"; // Import the 'Navbar' component
+import Navbar from "@/Components/Nav";
 import Nav from "@/Components/Nav";
 import MobileNav from "@/Components/MobileNav";
 import Carousel from "@/Components/Carousel";
 
-const index = ({ project }: { project: any }) => {
-  // if (!project) {
-  //   return <div>Project not found</div>;
-  // }
+const MyProjects = ({ project }: { project: any }) => {
   const [nav, setNav] = useState(false);
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
@@ -24,7 +21,6 @@ const index = ({ project }: { project: any }) => {
           PROJECTS
         </h1>
         <div className="w-[80%] m-auto">
-          {" "}
           <Carousel />
         </div>
       </div>
@@ -32,4 +28,4 @@ const index = ({ project }: { project: any }) => {
   );
 };
 
-export default index;
+export default MyProjects;
