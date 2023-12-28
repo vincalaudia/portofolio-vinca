@@ -22,59 +22,53 @@ const Card = ({
   tags,
 }: CardProps) => {
   const [isHovered, setIsHovered] = useState(false);
-
   return (
     <div
-      className="Container flex flex-col items-center px-[15px] py-[20px] relative bg-[#f8faff] transform cursor-pointer hover:scale-[105%] transition-all duration-200 rounded-[8px]"
+      className="Container w-[28rem] flex flex-col items-center px-[15px] pt-[15px] pb-[20px] relative bg-[#374a6055]  
+      hover:border-solid hover:border-2 hover:border-[#FFFFFF] hover:bg-[#374a6094] transform cursor-pointer hover:scale-[98.5%] transition-all duration-200 rounded-[8px]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative w-[336px] h-[189px] bg-[#f8faff] rounded-[8px] overflow-hidden mb-[12px]">
-        {isHovered ? (
-          <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${imageUrl})` }}
-          >
+      <div className="relative w-full h-[240px] bg-[#374a6055] rounded-[8px] overflow-hidden mb-[12px]">
+        <div
+          className="w-full h-full bg-cover bg-center"
+          style={{ backgroundImage: `url(${imageUrl})` }}
+        >
+          {isHovered ? (
             <div className="w-full h-full flex  justify-center items-center backdrop-brightness-[40%]">
               <span className="text-white text-2xl w-1/2 text-center font-semibold uppercase">
                 See Details
               </span>
             </div>
-          </div>
-        ) : (
-          <Image
-            src={imageUrl}
-            alt="portfolio"
-            layout="fill"
-            objectFit="contain"
-            className="object-cover"
-          />
-        )}
+          ) : (
+            <div></div>
+          )}
+        </div>
       </div>
-      <div className="flex flex-col items-start gap-[3px] relative  w-full">
-        <p className="relative w-full font-semibold text-[#babad1] text-[14px] text-justify leading-[normal]">
+      <div className="flex flex-col items-start gap-[5px] relative  w-full">
+        <p className="relative w-full font-semibold text-[#bbe7f1b2] text-[14px] text-justify leading-[normal]">
           {duration} • {role}
         </p>
-        <p className="relative self-stretch font-semibold text-[#242424] text-[20px] text-justify tracking-[-0.53px] leading-[normal]">
+        <p className="relative self-stretch font-semibold text-[#FFFFFF] text-[22px] tracking-[0.4px]  text-justify leading-[normal]">
           {title}
         </p>
-        <p className="relative w-full  text-[#b8b8c5] text-[16px] text-justify tracking-[-0.40px] leading-[normal]">
+        <p className="relative w-full  text-[#bbe7f1b2] text-[16px] text-justify leading-[normal]">
           {instance}
         </p>
         <div className="w-full items-start px-0 py-[4.34px] relative flex-[0_0_auto]">
           {tags.map((tag, index) => (
             <div
               key={index} // Add a unique key prop here
-              className="inline-flex m-[2px] items-start px-[8px] py-[3px] relative flex-[0_0_auto] bg-[#304b54d5] rounded-[26.04px]"
+              className="inline-flex my-[2px] mx-[3px] items-start px-[8px] py-[3px] relative flex-[0_0_auto] bg-[#eadcbabf] rounded-[26.04px]"
             >
-              <div className="relative w-fit mt-[-0.87px] text-[#f8faff] text-[14px] text-justifytracking-[-0.35px] leading-[normal]">
+              <div className="relative w-fit mt-[-0.87px] text-[#242424] text-[14px] text-justify leading-[normal]">
                 {tag}
               </div>
             </div>
           ))}
         </div>
       </div>
-      <p className="relative w-full  text-[#828282] text-[12px] text-justify tracking-[-0.33px] leading-[normal]">
+      <p className="relative w-full  text-[#c5d2d5] text-[15px] text-justify leading-[normal]">
         {description}
       </p>
     </div>

@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Card from "./Card";
 import { BsArrowRight } from "react-icons/bs";
+import AOS from "aos";
 
 const Projects = () => {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      // Settings here (optional)
+      // e.g., duration: 2000
+    });
+  }, []);
+
   return (
-    <div className="bg-[#0b1010] h-[180vh] md:py-[4rem]">
-      <h1 className="heading text-[50px] md:text-[50px] text-[#adc5cd]">
+    <div className="bg-[#0b1010] h-fit md:py-[4rem] py-[20px]">
+      <h1
+        className="heading text-[50px] md:text-[50px] text-[#adc5cd]"
+        data-aos="fade-up"
+      >
         PROJECTS
       </h1>
-      <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
+      <div
+        className="overflow-wrap w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2.5rem] mb-[60px]"
+        data-aos="fade-up"
+      >
         <Card
           imageUrl="/projects/p1.png"
           duration="JUN - SEP 2022"

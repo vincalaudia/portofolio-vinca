@@ -1,5 +1,6 @@
 import React from "react";
 import { Bars3Icon } from "@heroicons/react/20/solid";
+import Link from "./Link";
 
 interface Props {
   openNav: () => void;
@@ -17,7 +18,7 @@ const Nav = ({ openNav }: Props) => {
         <a href="#About" className="nav-link">
           About
         </a>
-        <a href="#Projects" className="nav-link">
+        <a href="/MyProjects" className="nav-link">
           Projects
         </a>
         <div className="nav-link">Contact</div>
