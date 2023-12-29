@@ -41,9 +41,7 @@ const Hero = () => {
             <Buttons
               icon={true}
               buttonLabel={"Check Out My Projects"}
-              link={
-                "https://figma.com/proto/WBYMbm0NI9ShUNojqZhKJH/Untitled?page-id=1%3A4&type=design&node-id=49-2504&viewport=1949%2C1406%2C0.28&scaling=min-zoom&starting-point-node-id=49%3A2504&show-proto-sidebar=1"
-              }
+              link={"/MyProjects"}
             />
           </div>
         </div>
