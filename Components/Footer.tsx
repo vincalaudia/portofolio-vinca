@@ -19,10 +19,10 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white hidden">
                 PORTOFOLIO
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-500 dark:text-gray-400 font-medium hidden">
                 <li className="mb-4">
                   <a href="#" target="_blank" className="hover:underline">
                     Data

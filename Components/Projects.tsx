@@ -13,19 +13,20 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="bg-[#0b1010] h-fit md:py-[4rem] py-[20px]">
-      <h1
-        className="heading text-[50px] md:text-[50px] text-[#adc5cd]"
+    <div className="bg-[#0b1010] h-fit md:py-[20rem] pt-[100px]">
+      <h2
+        className="text-[32px] md:w-[80%] lg:w[100%] md:text-[40px] md:leading-[3rem] leading-[2.3rem] font-bold text-white text-center mx-auto"
         data-aos="fade-up"
       >
-        PROJECTS
-      </h1>
+        Project <span className="text-[#EADCBA]">Highlight</span>
+      </h2>
       <div
-        className="overflow-wrap w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2.5rem] mb-[60px]"
+        className="overflow-clip w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2.5rem] mb-[60px]"
         data-aos="fade-up"
       >
         <Card
-          imageUrl="/projects/p1.png"
+          id="1"
+          imageUrl="/projectsImage/p1.png"
           duration="JUN - SEP 2022"
           role="UI/UX ENGINEERING"
           title="Sadarly iOS & Apple Watch App"
@@ -35,7 +36,8 @@ const Projects = () => {
         />
 
         <Card
-          imageUrl="/projects/p2.png"
+          id="2"
+          imageUrl="/projectsImage/p2.png"
           duration="SEP 2023"
           role="UX RESEARCHER"
           title="Tihati: Teman Berjalan dengan Aman"
@@ -45,7 +47,8 @@ const Projects = () => {
         />
 
         <Card
-          imageUrl="/projects/p3.png"
+          id="3"
+          imageUrl="/projectsImage/p3.png"
           duration="DES 2022 - FEB 2023"
           role="UI/UX ENGINEERING"
           title="urai: Your Anxiety Relieve Pal"
@@ -55,7 +58,8 @@ const Projects = () => {
         />
 
         <Card
-          imageUrl="/projects/p4.png"
+          id="4"
+          imageUrl="/projectsImage/p4.png"
           duration="SEP - NOV 2022"
           role="UI/UX ENGINEERING"
           title="Pemilihan Raya (PEMIRA) 2022"
@@ -65,7 +69,8 @@ const Projects = () => {
         />
 
         <Card
-          imageUrl="/projects/p5.png"
+          id="5"
+          imageUrl="/projectsImage/p5.png"
           duration="OCT - DES 2022"
           role="UI/UX ENGINEERING"
           title="Ikipiro"
@@ -75,7 +80,8 @@ const Projects = () => {
         />
 
         <Card
-          imageUrl="/projects/p6.png"
+          id="6"
+          imageUrl="/projectsImage/p6.png"
           duration="APR 2022/ APR 2023"
           role="UI/UX ENGINEERING"
           title="Jamu Jamu"
@@ -85,8 +91,8 @@ const Projects = () => {
         />
       </div>
 
-      <div className="flex justify-center space-x-5 items-center">
-        <h1 className="font-semibold text-[20px] md:text-[20px] text-[#adc5cd]">
+      <div className="flex flex-col md:flex-row justify-center mx-auto space-y-3 md:space-y-1 space-x-4 items-center mb-[20px] w-[80%]">
+        <h1 className="font-semibold text-[20px] text-center md:text-start md:text-[20px] text-[#adc5cd]">
           This website is still under development. More details will be added.
           However, You can
         </h1>

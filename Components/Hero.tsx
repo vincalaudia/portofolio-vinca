@@ -24,7 +24,7 @@ const Hero = () => {
           data-aos="fade-up"
         >
           <div>
-            <h1 className="text-[24px] font-semibold md:text-[50px] text-[#adc5cd]">
+            <h1 className="text-[18px] font-semibold md:text-[50px] text-[#adc5cd]">
               NICE TO MEET YOU! I'M
               <span className="text-[#d0c8a9]"> VINCA,</span>
             </h1>
@@ -32,7 +32,7 @@ const Hero = () => {
 
           <TextEffects />
 
-          <p className="text-[18px] md:text-[24px] text-[#adc5cd] lg:w-[75%] text-justify">
+          <p className="text-[12px] md:text-[24px] text-[#adc5cd] lg:w-[75%] text-justify">
             Passionate about technology development with experience on multiple
             mobile and website development projects! Loves to collaborate with
             diverse teams in a creative and professional environment.

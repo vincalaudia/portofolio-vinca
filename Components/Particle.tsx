@@ -33,7 +33,7 @@ const Particle = () => {
       autoPlay: true,
       background: {
         color: {
-          value: "#000000",
+          value: "#0b1010",
         },
         image: "",
         position: "",

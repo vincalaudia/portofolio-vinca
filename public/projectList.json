@@ -1,0 +1,176 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "/projectsImage/p1.png",
+    "duration": "JUN - SEP 2022",
+    "role": "UI/UX ENGINEERING",
+    "title": "Sadarly iOS & Apple Watch App",
+    "instance": "Apple Developer Academy @Infinite Learning",
+    "tags": ["Team Project", "Learner", "On App Store"],
+    "description": "It is a mindfulness app designed to help busy individuals enhance their awareness and engage in mindfulness activities..."
+  },
+  {
+    "id": "2",
+    "imageUrl": "/projectsImage/p2.png",
+    "duration": "SEP 2023",
+    "role": "UX RESEARCHER",
+    "title": "Tihati: Women Public Safety App",
+    "instance": "Submission for GEMASTIK XVI",
+    "tags": ["Team Project", "Lead Researcher", "Patented"],
+    "description": "It is a mindfulness app designed to help busy individuals enhance their awareness and engage in mindfulness activities. Our app provides personalized recommendations based on goals and available time, turning mindfulness into actionable steps. With a wide range of exercises to choose from, including breathing techniques, journaling, and observation, Sadarly provides users with over 17 options for mindfulness practice."
+  },
+  {
+    "id": "3",
+    "imageUrl": "/projectsImage/p3.png",
+    "duration": "DES 2022 - FEB 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "urai: Your Anxiety Relieve Pal",
+    "instance": "Arkavidia 8 Submission",
+    "tags": ["Team Project", "UI/UX Designer", "Study Case"],
+    "description": "Urai is a mobile application with the intention of assisting a close friend who suffers from a severe mental disorder with self-harm tendencies. Through our observation, we identified that their mental health struggles were exacerbated by a lack of outlets for emotional expression and a platform to share their personal stories. In response to this, we have created a dedicated platform that offers a secure and nurturing environment for them to freely express their emotions and communicate their experiences by using chatbot and activity guides."
+  },
+  {
+    "id": "4",
+    "imageUrl": "/projectsImage/p4.png",
+    "duration": "SEP - NOV 2022",
+    "role": "UI/UX ENGINEERING",
+    "title": "Pemilihan Raya (PEMIRA) 2022",
+    "instance": "Himpunan Mahasiswa Ilmu Komputer UGM",
+    "tags": ["Team Project", "Design Lead", "Website"],
+    "description": "The platform serves as a comprehensive solution for conducting the annual Himakom leader election. It enables members of Himakom UGM (Himpunan Mahasiswa Ilmu Komputer Universitas Gadjah Mada) to cast their votes conveniently both online and onsite. The platform streamlines the election process, ensuring efficiency, transparency, and inclusivity. It provides a user-friendly interface, secure voting mechanisms, and accurate result tabulation, ultimately facilitating a fair and democratic election for the benefit of all Himakom members."
+  },
+  {
+    "id": "5",
+    "imageUrl": "/projectsImage/p5.png",
+    "duration": "OCT - DES 2022",
+    "role": "UI/UX ENGINEERING",
+    "title": "Ikipiro",
+    "instance": "Apple Developer Academy @Infinite Learning",
+    "tags": ["Team Project", "UI/UX Designer", "On App Store"],
+    "description": "This app simplifies price list management and sharing for businesses. Businesses can benefit from features such as quick product search, easy input of product data, multi-store management, and data synchronization, all of which streamline operations and enhance productivity. Users can effortlessly manage prices, access information instantly, and collaborate with multiple admins and devices. With Ikipiro, businesses can deliver excellent customer service, resulting in enhanced overall performance."
+  },
+  {
+    "id": "6",
+    "imageUrl": "/projectsImage/p6.png",
+    "duration": "APR 2022/ APR 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "Jamu Jamu",
+    "instance": "Apple Developer Academy @Infinite Learning",
+    "tags": ["Personal Project", "Coder & Illustrator", "SwiftUI"],
+    "description": "Inspired by my personal experience with Jamu, I created an interactive app that delivers insights about Jamu in an engaging and fun way. Through a visual novel and trivia quiz format, users can interact with a character called Mbok Arum, a 'jamu gendong' merchant. Mbok Arum shares her knowledge about jamu's health benefits, trivia, recipes, and more. As users progress through the story, they can choose different dialogues that lead to various endings, with a total of 13 different ending illustrations to explore."
+  },
+
+  {
+    "id": "9",
+    "imageUrl": "/projectsImage/p9.png",
+    "duration": "OCT - DES 2023",
+    "role": "DATA ANALYSIS & VISUALIZATION",
+    "title": "Analisis Tren Rating Amazon",
+    "instance": "Group Project Task",
+    "tags": ["BigQuery", "LookerStudio", "Python", "Spreadsheets"],
+    "description": "The project optimizes Amazon product performance through customer satisfaction analysis. Using RCA, it emphasizes adapting to dy market trends. Methodologies include problem definition, data analysis, and visualizations. Recommendations include inventory adjus improved feedback responsiveness, effective pricing strategies, and optimized product pages for sustained relevance and demand."
+  },
+  {
+    "id": "10",
+    "imageUrl": "/projectsImage/p10.png",
+    "duration": "2023",
+    "role": "WEB DEVELOPMENT",
+    "title": "Naturu: Sustainable Fashion",
+    "instance": "Group Project Task",
+    "tags": ["Project Lead", "Fullstack Website"],
+    "description": "The Naturu e-commerce platform is a Next.js-based website that focuses on sustainable fashion. It covers a range of software engineering aspects, including UI design and both backend and frontend development. The platform aims to communicate Naturu's values and mission through key sections like Home, About Us, Catalog-Cart, and Contact Us. The development process involved conceptualizing the brand, designing workflows and wireframes, implementing high-resolution designs with HTML and CSS, ensuring responsiveness, and deploying the site. Static endpoints and a SQL database were created, connecting to the backend API. Operations like GET, POST, DELETE were managed, and Express.js and the database were implemented on the frontend. The project strives to enhance understanding of Naturu's commitment to sustainable fashion."
+  },
+  {
+    "id": "12",
+    "imageUrl": "/projectsImage/p12.png",
+    "duration": "JAN - APR 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "Calico: AI Mental Health Assistant",
+    "instance": "Google Developer Student Club at UGM",
+    "tags": ["Team Project", "UI/UX Designer", "Mobile App"],
+    "description": "We developed this application to support a friend who's experiencing mental health issue, depression. We noticed that a lack of emotional expression and a platform to share their stories contributed to their mental health issues. To address this, we created a platform to provide a safe space for them to express their emotions and communicate their experiences. We have submitted this project to the Google Solution Challenge 2023, hoping that it can assist more individuals to heal with mental health problems. By creating a platform for emotional expression and storytelling, we aim to provide support and alleviate the burden faced by those experiencing mental health issues."
+  },
+
+  {
+    "id": "13",
+    "imageUrl": "/projectsImage/p13.png",
+    "duration": "FEB - MAY 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "DietDash",
+    "instance": "Software Development Course Group Project",
+    "tags": ["Team Project", "UI/UX Designer", "Mobile App"],
+    "description": "DietDash is a food ordering and delivery app that focuses on accommodating users' dietary preferences. With a user-friendly interface and personalized food recommendations, DietDash allows users to easily find and order food that aligns with their specific dietary needs. The app consists of four key aspects, including the backend, customer app, merchant app, and driver app, all working together to create an efficient food delivery solution. The end goal is to adaptably flex our design, through the collaborative development of the solution, to accommodate the continuous evolution of DietDash's features."
+  },
+  {
+    "id": "14",
+    "imageUrl": "/projectsImage/p14.png",
+    "duration": "APR - MAY 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "MotoSavvy",
+    "instance": "Tri Server United Team, FindIT UX Submission",
+    "tags": ["Team Project", "UX Researcher", "Study Case"],
+    "description": "MotoSavvy is an online platform that provides valuable information and tips for vehicle maintenance. With features such as maintenance guides, trusted service provider listings, reservation capabilities, and maintenance tracking, MotoSavvy offers a comprehensive solution to help users care for their vehicles effectively. Users can access reliable and easily understandable information, making MotoSavvy the go-to platform for enhancing vehicle maintenance knowledge. MotoSavvy: Guiding Riders Every Mile."
+  },
+  {
+    "id": "15",
+    "imageUrl": "/projectsImage/p15.png",
+    "duration": "SEPT - NOV 2022",
+    "role": "UI/UX ENGINEERING",
+    "title": "Komipa Website",
+    "instance": "UI/UX Group Project",
+    "tags": ["Team Project", "UI/UX Designer", "Website"],
+    "description": "The Komipa project is a final group project for the college class 'Software Engineering Workshop.' We developed a microservice e-commerce website that integrates with the Midtrans payment gateway. This website will provide a platform for businesses to showcase and sell their products online. Customers will be able to browse through the product catalog, add items to their cart, and securely complete their transactions. This project involves the application of various software engineering principles and practices, including system design, development, testing, and deployment. By working on this project, we aim to gain practical experience in building a real-world e-commerce application and enhancing our skills in software engineering."
+  },
+  {
+    "id": "16",
+    "imageUrl": "/projectsImage/p16.png",
+    "duration": "NOV 2023",
+    "role": "UI/UX ENGINEERING",
+    "title": "HelpASchool",
+    "instance": "Google Developer Student Club at UGM",
+    "tags": ["Team Project", "UX Researcher", "Website UI"],
+    "description": "HelpASchool is part of a mission for the Google Developer Student Club, created a website aligned with the fourth Sustainable Development Goal (SDG) of quality education. Introducing 'HelpASchool,' a platform where individuals can donate to schools, students, or classrooms in need. In just one day, I developed the entire branding system and designed the homepage of the website, effectively conveying the platform's vision."
+  },
+
+  {
+    "id": "17",
+    "imageUrl": "/projectsImage/p17.png",
+    "duration": "2022",
+    "role": "NATURAL LANGUAGE PROCESSING",
+    "title": "Analisis Sentimen Ulasan Produk",
+    "instance": "Machine Learning Task",
+    "tags": ["SVM", "Random Forest", "GBoosting"],
+    "description": "In this project, I conducted sentiment analysis on Amazon product reviews using Natural Language Processing (NLP) and three classification algorithms: Support Vector Machine (SVM), Random Forest, and Gradient Boosting. The dataset, sourced from Kaggle, underwent text preprocessing to ensure it was in a suitable format for analysis. The evaluation results showed that the Random Forest algorithm outperformed the others, achieving high accuracy and good precision across most sentiment classes. The success of Random Forest can be attributed to its ability to handle diverse features in the text data, capture nonlinear patterns effectively, and exhibit higher tolerance towards noise or outliers in the reviews. Overall, the project provided valuable insights into NLP techniques, classification algorithms, and the significance of data preprocessing for accurate sentiment analysis."
+  },
+  {
+    "id": "18",
+    "imageUrl": "/projectsImage/p18.png",
+    "duration": "2022",
+    "role": "COMPUTER VISION",
+    "title": "CNN:Klasifikasi Citra X-Ray Covid",
+    "instance": "Task for Computer Vision Course",
+    "tags": ["Computer Vision", "Individual"],
+    "description": "In this project, I developed a Convolutional Neural Network (CNN) model to classify X-ray images into two categories: COVID-19 and non-COVID-19. The CNN model was trained using a limited dataset of chest X-ray images to accurately identify COVID-19 cases. The model's performance was evaluated using metrics such as accuracy, precision, recall, F1-score, and confusion matrix. The results demonstrated that the CNN model achieved a high accuracy of 0.9006, recall of 0.7661, and precision of 0.8539 on the test dataset, making it an effective tool for COVID-19 X-ray image classification. To further improve the model's performance, future research could focus on expanding the dataset for the imbalanced class, adding more layers, and fine-tuning hyperparameters. This project showcases my proficiency in applying deep learning techniques for medical image analysis and contributing to the fight against COVID-19."
+  },
+  {
+    "id": "19",
+    "imageUrl": "/projectsImage/p19.png",
+    "duration": "ONGOING",
+    "role": "UI/UX ENGINEERING",
+    "title": "Website Laboratorium RPLD",
+    "instance": "Lab Rekayasa Perangkat Lunak dan Data UGM",
+    "tags": ["Team Project", "Designer", "Website"],
+    "description": "This ongoing project aims to create a website that effectively showcases the profile of our software engineering and data lab. Through this platform, we will highlight all the projects undertaken at our lab, introduce our staff members, communicate our daily goals, and provide a convenient channel for contacting us. The website will serve as a comprehensive representation of our lab's work and objectives, strengthening our online presence and facilitating connections with interested parties."
+  },
+
+  {
+    "id": "20",
+    "imageUrl": "/projectsImage/p20.png",
+    "duration": "FEBRUARY 2020",
+    "role": "ILLUSTRATOR",
+    "title": "GerCep Go: First Aid Card Game",
+    "instance": "Submission for SIXS 2020, held by Kemdikbud",
+    "tags": ["Team Project", "Lead Illustrator", "Card Game"],
+    "description": "GerCep Go is a card game product that aims to provide enjoyable and educational content related to health and first aid. It allows users to take, take a break from electronic devices, and learn valuable skills. By engaging in this card game, players can relax and glean valuable skills. The visual artwork is carefully designed to ensure that the educational content can be accessed by individuals of all ages, while also considering the comfort level of people who may be sensitive to graphic depictions of injuries. The gameplay of GerCep Go is simple yet maintains an enthusiastic atmosphere throughout the game. The aim is to create an educational game that is both enjoyable to play and effectively delivers the intended educational content."
+  }
+]
