@@ -52,13 +52,13 @@ const Card = ({
           </div>
         </div>
         <div className="flex flex-col items-start gap-[5px] relative  w-full">
-          <p className="relative w-full font-semibold text-[#bbe7f1b2] text-[12px] md:text-[12px] text-justify leading-[normal]">
+          <p className="relative w-full font-semibold text-[#bbe7f1b2] text-[12px] md:text-[14px] text-justify leading-[normal]">
             {duration} • {role}
           </p>
-          <p className="relative self-stretch font-semibold text-[#FFFFFF] text-[17px] md:text-[16px] tracking-[0.4px]  text-justify leading-[normal]">
+          <p className="relative self-stretch font-semibold text-[#FFFFFF] text-[17px] md:text-[20px] tracking-[0.4px]  text-justify leading-[normal]">
             {title}
           </p>
-          <p className="relative w-full text-[#bbe7f1b2] text-[14px] md:text-[12px] text-justify leading-[normal]">
+          <p className="relative w-full text-[#bbe7f1b2] text-[14px] md:text-[16px] text-justify leading-[normal]">
             {instance}
           </p>
           <div className="w-full mb-[4px] mt-[-4px] items-start relative">
@@ -67,14 +67,14 @@ const Card = ({
                 key={index} // Add a unique key prop here
                 className="inline-flex mx-[3px] items-start px-[8px] py-[3px] relative flex-[0_0_auto] bg-[#eadcbabf] rounded-[26.04px]"
               >
-                <div className="relative w-fit mt-[-0.87px] text-[#242424] text-[9px] md:text-[11px] text-justify leading-[normal]">
+                <div className="relative w-fit mt-[-0.87px] text-[#242424] text-[9px] md:text-[12px] text-justify leading-[normal]">
                   {tag}
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <p className="relative w-full text-[#c5d2d5] text-[10px] md:text-[12px] text-justify leading-[normal] line-clamp-3">
+        <p className="relative w-full text-[#c5d2d5] text-[12px] md:text-[16px] text-justify leading-[normal] line-clamp-3">
           {description}
         </p>
       </div>

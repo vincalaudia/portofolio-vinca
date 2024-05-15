@@ -5,6 +5,8 @@ import Navbar from "@/Components/Nav";
 import MobileNav from "@/Components/MobileNav";
 import Footer from "@/Components/Footer";
 import { CardProps } from "@/Components/Card";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ProjectPage: React.FC = (): React.ReactNode => {
   const [project, setProject] = useState<CardProps | null>(null);
@@ -43,6 +45,26 @@ const ProjectPage: React.FC = (): React.ReactNode => {
       <div className="bg-[#0b1010] lg:h-fit py-[4rem] md:pt-[20vh]">
         <div className="flex flex-col w-[95%] mx-auto items-center">
           <div className="relative mx-auto my-[2rem] w-[50rem] h-[25rem] space-x-1">
+          render() {
+            const settings = {
+              className: "center",
+              centerMode: true,
+              infinite: true,
+              centerPadding: "20px",
+              slidesToShow: 1,
+              speed: 500,
+              dots: true,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1700,
+              cssEase: "linear",
+            };
+            return (
+              <div className="bg-[#374a6035] w-full mx-auto overflow-wrap">
+                <Slider {...settings}></Slider>
+              </div>
+            );
+          }
             <Image
               src={project.imageUrl}
               alt="user"

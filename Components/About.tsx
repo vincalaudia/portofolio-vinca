@@ -33,7 +33,7 @@ const About = () => {
             className="my-[1rem] flex items-center md:space-x-10"
             data-aos="fade-up"
           >
-            <p className="text-[12px] text-slate-300 w-[95%] lg:w-[80%]">
+            <p className="text-slate-300 w-[95%] lg:w-[80%]">
               As a Computer Science student, I navigate the evolving landscape
               of technology with enthusiasm and adaptability. My diverse
               experiences have equipped me with a complete skill set for

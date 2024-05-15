@@ -12,31 +12,41 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 10, 10, 10;
-    --background-end-rgb: 0, 0, 0;
+    --background-color: #0b1010;
+    --base-font-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #0b1010;
+    --base-font-color: #ffffff;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overscroll-behavior: none;
+  background-color: var(--background-color);
+  color: var(--base-font-color);
+}
+p {
+  font-size: 12px;
 }
 
+@media (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+}
 @layer components {
   .nav-link {
-    @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block after:block
+    @apply relative text-white cursor-pointer text-[20px] w-fit md:block after:block
     after:content-[''] after:absolute after:h-[1px] after:bg-[#EADCBA] after:w-full after:scale-x-0
     after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden;
   }
 
   .nav-link-mobile {
-    @apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[27px] w-fit md:block after:block 
+    @apply relative mb-[2rem] text-white cursor-pointer text-[22px] w-fit md:block after:block 
     after:content-[''] after:absolute after:h-[1px] after:bg-[#EADCBA] after:w-full after:scale-x-0 
     after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
   }
