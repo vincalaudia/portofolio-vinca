@@ -33,11 +33,6 @@ p {
   font-size: 12px;
 }
 
-@media (min-width: 768px) {
-  p {
-    font-size: 20px;
-  }
-}
 @layer components {
   .nav-link {
     @apply relative text-white cursor-pointer text-[20px] w-fit md:block after:block
@@ -53,5 +48,34 @@ p {
 
   .heading {
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold;
+  }
+}
+
+.slick-dots li {
+  bottom: 0px !important;
+  margin-left: 2vw !important;
+  margin-right: 6vw !important;
+}
+
+.slick-dots {
+  text-align: left !important;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+  .slick-dots li {
+    bottom: 0px !important;
+    margin-left: 5vw !important;
+    margin-right: 6vw !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slick-dots li {
+    bottom: 0px !important;
+    margin-left: 17.5vw !important;
+    margin-right: -10.25vw !important;
   }
 }

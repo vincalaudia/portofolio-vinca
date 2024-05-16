@@ -13,7 +13,7 @@ const HomePage = () => {
   const closeNav = () => setNav(false);
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden mt-[-3vh]">
       <div>
         <MobileNav nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />

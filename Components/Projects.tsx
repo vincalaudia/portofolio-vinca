@@ -26,7 +26,7 @@ const Projects = () => {
       >
         <Card
           id="1"
-          imageUrl="/projectsImage/p1.png"
+          imageUrl={["/projectsImage/p1.png"]}
           duration="JUN - SEP 2022"
           role="UI/UX ENGINEERING"
           title="Sadarly iOS & Apple Watch App"
@@ -37,7 +37,7 @@ const Projects = () => {
 
         <Card
           id="2"
-          imageUrl="/projectsImage/p2.png"
+          imageUrl={["/projectsImage/p2.png"]}
           duration="SEP 2023"
           role="UX RESEARCHER"
           title="Tihati: Teman Berjalan dengan Aman"
@@ -48,7 +48,7 @@ const Projects = () => {
 
         <Card
           id="3"
-          imageUrl="/projectsImage/p3.png"
+          imageUrl={["/projectsImage/p3.png"]}
           duration="DES 2022 - FEB 2023"
           role="UI/UX ENGINEERING"
           title="urai: Your Anxiety Relieve Pal"
@@ -59,7 +59,7 @@ const Projects = () => {
 
         <Card
           id="4"
-          imageUrl="/projectsImage/p4.png"
+          imageUrl={["/projectsImage/p4.png"]}
           duration="SEP - NOV 2022"
           role="UI/UX ENGINEERING"
           title="Pemilihan Raya (PEMIRA) 2022"
@@ -70,7 +70,7 @@ const Projects = () => {
 
         <Card
           id="5"
-          imageUrl="/projectsImage/p5.png"
+          imageUrl={["/projectsImage/p5.png"]}
           duration="OCT - DES 2022"
           role="UI/UX ENGINEERING"
           title="Ikipiro"
@@ -81,7 +81,7 @@ const Projects = () => {
 
         <Card
           id="6"
-          imageUrl="/projectsImage/p6.png"
+          imageUrl={["/projectsImage/p6.png"]}
           duration="APR 2022/ APR 2023"
           role="UI/UX ENGINEERING"
           title="Jamu Jamu"

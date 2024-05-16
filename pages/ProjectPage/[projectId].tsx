@@ -5,6 +5,8 @@ import Navbar from "@/Components/Nav";
 import MobileNav from "@/Components/MobileNav";
 import Footer from "@/Components/Footer";
 import { CardProps } from "@/Components/Card";
+import CarouselImage from "@/Components/CarouselImage";
+import Buttons from "@/Components/Buttons";
 
 const ProjectPage: React.FC = (): React.ReactNode => {
   const [project, setProject] = useState<CardProps | null>(null);
@@ -40,21 +42,31 @@ const ProjectPage: React.FC = (): React.ReactNode => {
     <div className="overflow-x-hidden">
       <MobileNav nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
-      <div className="bg-[#0b1010] lg:h-fit py-[4rem] md:pt-[20vh]">
-        <div className="flex flex-col w-[95%] mx-auto items-center">
-          <div className="relative mx-auto my-[2rem] w-[50rem] h-[25rem] space-x-1">
-            <Image
-              src={project.imageUrl}
-              alt="user"
-              layout="fill"
-              className="relative z-[2] w-[100%] h-[100%] object-contain rounded-xl"
-            />
+      <div className="bg-[#0b1010] md:w-100% md:pt-[9vh]">
+        <div className="flex flex-col mx-auto items-center">
+          <div className=" w-full pb-[12vw] lg:pb-[6vw]">
+            <CarouselImage images={project.imageUrl} />
           </div>
-          <div className="flex flex-col">
-            <h1>{project.title}</h1>
-            <h1>{project.duration}</h1>
-            <h1>{project.role}</h1>
+
+          <div className="flex flex-col w-[90vw] h-auto md:w-[90vw] lg:w-[65vw] space-y-2">
+            <h1 className="relative w-full font-semibold text-[#bbe7f1b2] text-[12px] md:text-[14px] text-justify leading-[normal">
+              {project.role}
+            </h1>
+            <h1 className="relative self-stretch font-semibold text-[#FFFFFF] text-[17px] md:text-[20px] tracking-[0.4px]  text-justify leading-[normal]">
+              {project.title}
+            </h1>
+            <h1 className="relative w-full font-semibold text-[#bbe7f1b2] text-[12px] md:text-[14px] text-justify leading-[norma]">
+              {project.duration}
+            </h1>
+
             <p>{project.description}</p>
+            <div className="pb-20">
+              <Buttons
+                icon={true}
+                buttonLabel={"Take a look at the project"}
+                link={"https://apps.apple.com/sg/app/sadarly/id1638382221"}
+              />
+            </div>
           </div>
         </div>
       </div>

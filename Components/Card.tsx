@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export type CardProps = {
   id: Key;
-  imageUrl: string;
+  imageUrl: string[];
   duration: string;
   role: string;
   title: string;
@@ -38,7 +38,7 @@ const Card = ({
         <div className="relative w-full h-[160px] md:h-[200px] bg-[#374a6055] rounded-[8px] overflow-hidden mb-[12px]">
           <div
             className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${imageUrl})` }}
+            style={{ backgroundImage: `url(${imageUrl[0]})` }}
           >
             {isHovered ? (
               <div className="w-full h-full flex  justify-center items-center backdrop-brightness-[40%]">
