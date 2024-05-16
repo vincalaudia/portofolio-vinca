@@ -17,13 +17,13 @@ const Nav = ({ openNav }: Props) => {
           VINCA<span className="text-[#adc5cd]">LAUDIA</span>
         </a>
 
-        <a href="#About" className="nav-link">
+        <a href="/#About" className="nav-link">
           About
         </a>
         <a href="/MyProjects" className="nav-link">
           Projects
         </a>
-        <a href="#Footer" className="nav-link">
+        <a href="/#Footer" className="nav-link">
           Contact
         </a>
         {/* <div className="nav-link">O</div> */}
