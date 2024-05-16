@@ -1,17 +1,23 @@
 [
   {
     "id": "1",
-    "imageUrl": "/projectsImage/p1.png",
+    "imageUrl": [
+      "/projectsImage/p1-1.png",
+      "/projectsImage/p1-2.png",
+      "/projectsImage/p1-3.png",
+      "/projectsImage/p1-4.png",
+      "/projectsImage/p1-5.png"
+    ],
     "duration": "JUN - SEP 2022",
     "role": "UI/UX ENGINEERING",
     "title": "Sadarly iOS & Apple Watch App",
     "instance": "Apple Developer Academy @Infinite Learning",
     "tags": ["Team Project", "Learner", "On App Store"],
-    "description": "It is a mindfulness app designed to help busy individuals enhance their awareness and engage in mindfulness activities..."
+    "description": "It is a mindfulness app designed to help busy individuals enhance their awareness and engage in mindfulness activities. Our app provides personalized recommendations based on goals and available time, turning mindfulness into actionable steps. With a wide range of exercises to choose from, including breathing techniques, journaling, and observation, Sadarly provides users with over 17 options for mindfulness practice. By tracking history and reflecting on exercises, users can experience the benefits of mindfulness training, such as reduced stress, improved attention span, and decreased job burnout."
   },
   {
     "id": "2",
-    "imageUrl": "/projectsImage/p2.png",
+    "imageUrl": ["/projectsImage/p2.png"],
     "duration": "SEP 2023",
     "role": "UX RESEARCHER",
     "title": "Tihati: Women Public Safety App",
@@ -21,7 +27,7 @@
   },
   {
     "id": "3",
-    "imageUrl": "/projectsImage/p3.png",
+    "imageUrl": ["/projectsImage/p3.png"],
     "duration": "DES 2022 - FEB 2023",
     "role": "UI/UX ENGINEERING",
     "title": "urai: Your Anxiety Relieve Pal",
@@ -31,7 +37,7 @@
   },
   {
     "id": "4",
-    "imageUrl": "/projectsImage/p4.png",
+    "imageUrl": ["/projectsImage/p4.png"],
     "duration": "SEP - NOV 2022",
     "role": "UI/UX ENGINEERING",
     "title": "Pemilihan Raya (PEMIRA) 2022",
@@ -41,7 +47,7 @@
   },
   {
     "id": "5",
-    "imageUrl": "/projectsImage/p5.png",
+    "imageUrl": ["/projectsImage/p5.png"],
     "duration": "OCT - DES 2022",
     "role": "UI/UX ENGINEERING",
     "title": "Ikipiro",
@@ -51,7 +57,7 @@
   },
   {
     "id": "6",
-    "imageUrl": "/projectsImage/p6.png",
+    "imageUrl": ["/projectsImage/p6.png"],
     "duration": "APR 2022/ APR 2023",
     "role": "UI/UX ENGINEERING",
     "title": "Jamu Jamu",
@@ -62,7 +68,7 @@
 
   {
     "id": "9",
-    "imageUrl": "/projectsImage/p9.png",
+    "imageUrl": ["/projectsImage/p9.png"],
     "duration": "OCT - DES 2023",
     "role": "DATA ANALYSIS & VISUALIZATION",
     "title": "Analisis Tren Rating Amazon",
@@ -72,7 +78,7 @@
   },
   {
     "id": "10",
-    "imageUrl": "/projectsImage/p10.png",
+    "imageUrl": ["/projectsImage/p10.png"],
     "duration": "2023",
     "role": "WEB DEVELOPMENT",
     "title": "Naturu: Sustainable Fashion",
@@ -82,7 +88,7 @@
   },
   {
     "id": "12",
-    "imageUrl": "/projectsImage/p12.png",
+    "imageUrl": ["/projectsImage/p12.png"],
     "duration": "JAN - APR 2023",
     "role": "UI/UX ENGINEERING",
     "title": "Calico: AI Mental Health Assistant",
@@ -93,7 +99,7 @@
 
   {
     "id": "13",
-    "imageUrl": "/projectsImage/p13.png",
+    "imageUrl": ["/projectsImage/p13.png"],
     "duration": "FEB - MAY 2023",
     "role": "UI/UX ENGINEERING",
     "title": "DietDash",
@@ -103,7 +109,7 @@
   },
   {
     "id": "14",
-    "imageUrl": "/projectsImage/p14.png",
+    "imageUrl": ["/projectsImage/p14.png"],
     "duration": "APR - MAY 2023",
     "role": "UI/UX ENGINEERING",
     "title": "MotoSavvy",
@@ -113,7 +119,7 @@
   },
   {
     "id": "15",
-    "imageUrl": "/projectsImage/p15.png",
+    "imageUrl": ["/projectsImage/p15.png"],
     "duration": "SEPT - NOV 2022",
     "role": "UI/UX ENGINEERING",
     "title": "Komipa Website",
@@ -123,7 +129,7 @@
   },
   {
     "id": "16",
-    "imageUrl": "/projectsImage/p16.png",
+    "imageUrl": ["/projectsImage/p16.png"],
     "duration": "NOV 2023",
     "role": "UI/UX ENGINEERING",
     "title": "HelpASchool",
@@ -134,7 +140,7 @@
 
   {
     "id": "17",
-    "imageUrl": "/projectsImage/p17.png",
+    "imageUrl": ["/projectsImage/p17.png"],
     "duration": "2022",
     "role": "NATURAL LANGUAGE PROCESSING",
     "title": "Analisis Sentimen Ulasan Produk",
@@ -144,7 +150,7 @@
   },
   {
     "id": "18",
-    "imageUrl": "/projectsImage/p18.png",
+    "imageUrl": ["/projectsImage/p18.png"],
     "duration": "2022",
     "role": "COMPUTER VISION",
     "title": "CNN:Klasifikasi Citra X-Ray Covid",
@@ -154,7 +160,7 @@
   },
   {
     "id": "19",
-    "imageUrl": "/projectsImage/p19.png",
+    "imageUrl": ["/projectsImage/p19.png"],
     "duration": "ONGOING",
     "role": "UI/UX ENGINEERING",
     "title": "Website Laboratorium RPLD",
@@ -165,7 +171,7 @@
 
   {
     "id": "20",
-    "imageUrl": "/projectsImage/p20.png",
+    "imageUrl": ["/projectsImage/p20.png"],
     "duration": "FEBRUARY 2020",
     "role": "ILLUSTRATOR",
     "title": "GerCep Go: First Aid Card Game",
