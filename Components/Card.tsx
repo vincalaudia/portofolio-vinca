@@ -12,6 +12,7 @@ export type CardProps = {
   instance: string;
   tags: string[];
   description: string;
+  buttonList: string[][];
 };
 
 const Card = ({

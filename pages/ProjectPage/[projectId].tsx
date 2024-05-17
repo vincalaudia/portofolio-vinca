@@ -60,12 +60,15 @@ const ProjectPage: React.FC = (): React.ReactNode => {
             </h1>
 
             <p>{project.description}</p>
-            <div className="pb-20">
-              <Buttons
-                icon={true}
-                buttonLabel={"Take a look at the project"}
-                link={"https://apps.apple.com/sg/app/sadarly/id1638382221"}
-              />
+            <div className="pb-20 space-y-3">
+              {project.buttonList.map((button, index) => (
+                <Buttons
+                  key={index}
+                  icon={true}
+                  buttonLabel={button[0]} // Assuming each button object has a title property
+                  link={button[1]} // Assuming each button object has a link property
+                />
+              ))}
             </div>
           </div>
         </div>
