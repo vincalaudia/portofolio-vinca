@@ -38,7 +38,7 @@ const About = () => {
               of technology with enthusiasm and adaptability. My diverse
               experiences have equipped me with a complete skill set for
               effective collaboration, and a passion for leveraging technology
-              for impactful solutions.
+              for impactful solutions...
             </p>{" "}
           </div>
           <div
