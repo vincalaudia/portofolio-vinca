@@ -61,14 +61,17 @@ const ProjectPage: React.FC = (): React.ReactNode => {
 
             <p>{project.description}</p>
             <div className="pb-20 space-y-3">
-              {project.buttonList.map((button, index) => (
-                <Buttons
-                  key={index}
-                  icon={true}
-                  buttonLabel={button[0]} // Assuming each button object has a title property
-                  link={button[1]} // Assuming each button object has a link property
-                />
-              ))}
+              {project.buttonList.map(
+                (button, index) =>
+                  button[0] ? ( // Only render if button[0] is not empty
+                    <Buttons
+                      key={index}
+                      icon={true}
+                      buttonLabel={button[0]}
+                      link={button[1]}
+                    />
+                  ) : null // If empty, render nothing
+              )}
             </div>
           </div>
         </div>

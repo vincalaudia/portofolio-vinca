@@ -23,6 +23,7 @@
   {
     "id": "01",
     "imageUrl": [
+      "/projectsImage/p20.png",
       "/projectsImage/o21-1.PNG",
       "/projectsImage/o21-2.PNG",
       "/projectsImage/o21-3.PNG"
@@ -32,7 +33,7 @@
     "title": "GerCep Go Game",
     "instance": "Personal Project",
     "tags": ["SwiftUI, Illustrator"],
-    "description": "Gercep Go is an interactive educational game designed to teach essential first-aid protocols in an engaging manner. Developed in response to noticeable gaps in first-aid knowledge—particularly among children in community and school settings—the game instructs users on how to manage 14 common injuries using simple, colorful visuals and an intuitive drag-and-drop interface. Notably, its cute design, characterized by playful, cartoon-style graphics, further enhances its appeal and accessibility for young learners. Its content is based on Indonesia’s official first-aid guidelines, ensuring both accuracy and relevance, and the game was developed using Swift Playgrounds, a beginner-friendly coding environment that supports seamless development across Mac and iPad devices.",
+    "description": "Gercep Go is an interactive educational game designed to teach essential first-aid protocols in an engaging manner. Developed in response to noticeable gaps in first-aid knowledge—particularly among children in community and school settings—the game instructs users on how to manage 14 common injuries using simple, colorful visuals and an intuitive drag-and-drop interface. The visual artwork is carefully designed to ensure that the educational content can be accessed by individuals of all ages, while also considering the comfort level of people who may be sensitive to graphic depictions of injuries. Notably, its cute design, characterized by playful, cartoon-style graphics, further enhances its appeal and accessibility for young learners. Its content is based on Indonesia’s official first-aid guidelines, ensuring both accuracy and relevance, and the game was developed using Swift Playgrounds, a beginner-friendly coding environment that supports seamless development across Mac and iPad devices.",
     "buttonList": [["", "#"]]
   },
 
@@ -123,7 +124,12 @@
     "instance": "Arkavidia 8 Submission",
     "tags": ["Team Project", "UI/UX Designer", "Study Case"],
     "description": "Urai is a mobile application with the intention of assisting a close friend who suffers from a severe mental disorder with self-harm tendencies. Through our observation, we identified that their mental health struggles were exacerbated by a lack of outlets for emotional expression and a platform to share their personal stories. In response to this, we have created a dedicated platform that offers a secure and nurturing environment for them to freely express their emotions and communicate their experiences by using chatbot and activity guides.",
-    "buttonList": [["", "#"]]
+    "buttonList": [
+      [
+        "Link to Prototype",
+        "https://www.figma.com/proto/gHpptTGZoSc1Qn9pqxTDqI/Eternally-Prosperous-88?node-id=406-4277&viewport=687%2C-5%2C0.09&t=sSmQ9dqrPuRjJ2f0-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=406%3A4277&show-proto-sidebar=1"
+      ]
+    ]
   },
   {
     "id": "4",
@@ -153,7 +159,12 @@
     "instance": "Apple Developer Academy @Infinite Learning",
     "tags": ["Team Project", "UI/UX Designer", "On App Store"],
     "description": "This app simplifies price list management and sharing for businesses. Businesses can benefit from features such as quick product search, easy input of product data, multi-store management, and data synchronization, all of which streamline operations and enhance productivity. Users can effortlessly manage prices, access information instantly, and collaborate with multiple admins and devices. With Ikipiro, businesses can deliver excellent customer service, resulting in enhanced overall performance.",
-    "buttonList": [["", "#"]]
+    "buttonList": [
+      [
+        "Link to Prototype",
+        "https://www.figma.com/proto/d378jM07yTwq8x71M674j4/Macro?node-id=981-16483&viewport=-3778%2C-2458%2C0.23&t=khRfwK6ndaspQykw-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=981%3A16483&show-proto-sidebar=1"
+      ]
+    ]
   },
   {
     "id": "6",
@@ -164,7 +175,9 @@
     "instance": "Apple Developer Academy @Infinite Learning",
     "tags": ["Personal Project", "Coder & Illustrator", "SwiftUI"],
     "description": "Inspired by my personal experience with Jamu, I created an interactive app that delivers insights about Jamu in an engaging and fun way. Through a visual novel and trivia quiz format, users can interact with a character called Mbok Arum, a 'jamu gendong' merchant. Mbok Arum shares her knowledge about jamu's health benefits, trivia, recipes, and more. As users progress through the story, they can choose different dialogues that lead to various endings, with a total of 13 different ending illustrations to explore.",
-    "buttonList": [["", "#"]]
+    "buttonList": [
+      ["Link to Github", "https://github.com/vincalaudia/JamuJamu.git"]
+    ]
   },
 
   {
@@ -225,14 +238,26 @@
   },
   {
     "id": "15",
-    "imageUrl": ["/projectsImage/p15.png"],
+    "imageUrl": [
+      "/projectsImage/p15-1.png",
+      "/projectsImage/p15-2.jpg",
+      "/projectsImage/p15-3.jpg",
+      "/projectsImage/p15-4.jpg",
+      "/projectsImage/p15-5.jpg",
+      "/projectsImage/p15-6.jpg"
+    ],
     "duration": "SEPT - NOV 2022",
     "role": "UI/UX ENGINEERING",
     "title": "Komipa Website",
     "instance": "UI/UX Group Project",
     "tags": ["Team Project", "UI/UX Designer", "Website"],
     "description": "The Komipa project is a final group project for the college class 'Software Engineering Workshop.' We developed a microservice e-commerce website that integrates with the Midtrans payment gateway. This website will provide a platform for businesses to showcase and sell their products online. Customers will be able to browse through the product catalog, add items to their cart, and securely complete their transactions. This project involves the application of various software engineering principles and practices, including system design, development, testing, and deployment. By working on this project, we aim to gain practical experience in building a real-world e-commerce application and enhancing our skills in software engineering.",
-    "buttonList": [["", "#"]]
+    "buttonList": [
+      [
+        "UI Prototype",
+        "https://www.figma.com/proto/o7p31TuOrdX1mEpbSnFL1w/Makmur-Abadi-88?node-id=1618-2740&viewport=7156%2C1139%2C0.15&t=lzBrRZJRFn2kCtlS-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1618%3A2740&show-proto-sidebar=1"
+      ]
+    ]
   },
   {
     "id": "16",
@@ -278,16 +303,5 @@
     "tags": ["Team Project", "Designer", "Website"],
     "description": "This ongoing project aims to create a website that effectively showcases the profile of our software engineering and data lab. Through this platform, we will highlight all the projects undertaken at our lab, introduce our staff members, communicate our daily goals, and provide a convenient channel for contacting us. The website will serve as a comprehensive representation of our lab's work and objectives, strengthening our online presence and facilitating connections with interested parties.",
     "button": [["", "#"]]
-  },
-
-  {
-    "id": "20",
-    "imageUrl": ["/projectsImage/p20.png"],
-    "duration": "FEBRUARY 2020",
-    "role": "ILLUSTRATOR",
-    "title": "GerCep Go: First Aid Card Game",
-    "instance": "Submission for SIXS 2020, held by Kemdikbud",
-    "tags": ["Team Project", "Lead Illustrator", "Card Game"],
-    "description": "GerCep Go is a card game product that aims to provide enjoyable and educational content related to health and first aid. It allows users to take, take a break from electronic devices, and learn valuable skills. By engaging in this card game, players can relax and glean valuable skills. The visual artwork is carefully designed to ensure that the educational content can be accessed by individuals of all ages, while also considering the comfort level of people who may be sensitive to graphic depictions of injuries. The gameplay of GerCep Go is simple yet maintains an enthusiastic atmosphere throughout the game. The aim is to create an educational game that is both enjoyable to play and effectively delivers the intended educational content."
   }
 ]
