@@ -57,6 +57,10 @@ p {
   margin-right: 6vw !important;
 }
 
+.slick-dots li button {
+  border: #ffffff00 1px solid !important;
+}
+
 .slick-dots {
   text-align: left !important;
 }
@@ -78,4 +82,9 @@ p {
     margin-left: 17.5vw !important;
     margin-right: -10.25vw !important;
   }
+}
+
+.slick-dots > li.slick-active > div {
+  border: #ffffff 1px solid !important;
+  border-radius: 0.4rem;
 }
