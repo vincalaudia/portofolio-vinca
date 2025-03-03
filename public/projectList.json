@@ -33,12 +33,7 @@
     "instance": "Personal Project",
     "tags": ["SwiftUI, Illustrator"],
     "description": "Gercep Go is an interactive educational game designed to teach essential first-aid protocols in an engaging manner. Developed in response to noticeable gaps in first-aid knowledge—particularly among children in community and school settings—the game instructs users on how to manage 14 common injuries using simple, colorful visuals and an intuitive drag-and-drop interface. Notably, its cute design, characterized by playful, cartoon-style graphics, further enhances its appeal and accessibility for young learners. Its content is based on Indonesia’s official first-aid guidelines, ensuring both accuracy and relevance, and the game was developed using Swift Playgrounds, a beginner-friendly coding environment that supports seamless development across Mac and iPad devices.",
-    "buttonList": [
-      [
-        "More on Achievement by Conexus",
-        "https://dcse.fmipa.ugm.ac.id/?p=18331&lang=id"
-      ]
-    ]
+    "buttonList": [["", "#"]]
   },
 
   {
