@@ -56,7 +56,7 @@ const About = () => {
             <Buttons
               icon={true}
               buttonLabel={"Download My CV"}
-              link={"CV_Jovinca_DA_2MB.pdf"}
+              link={"CV-Jovinca.pdf"}
             />
           </div>
         </div>

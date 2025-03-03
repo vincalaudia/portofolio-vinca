@@ -1,5 +1,71 @@
 [
   {
+    "id": "0",
+    "imageUrl": [
+      "/projectsImage/o20-1.jpg",
+      "/projectsImage/o20-2.jpg",
+      "/projectsImage/o20-3.jpg",
+      "/projectsImage/o20-4.jpg"
+    ],
+    "duration": "SEP 2024 - JAN 2025",
+    "role": "UI/UX",
+    "title": "Conexus",
+    "instance": "Developer Competition Submission",
+    "tags": ["Team Project"],
+    "description": "Conexus is a startup revolutionizing professional networking for young professionals by making connections smarter and profile management seamless. Using NFC technology, Conexus enables instant profile sharing with a simple tap, eliminating the need for traditional business cards. The platform offers an intuitive profile builder, engagement tracking, and smart networking tools like meeting schedulers and inquiry chatbots assisted by AI. Designed for freelancers, entrepreneurs, and business professionals, Conexus enhances visibility, streamlines networking interactions, and provides actionable insights to maximize professional opportunities.",
+    "buttonList": [
+      [
+        "More on Achievement by Conexus",
+        "https://dcse.fmipa.ugm.ac.id/?p=18331&lang=id"
+      ]
+    ]
+  },
+  {
+    "id": "01",
+    "imageUrl": [
+      "/projectsImage/o21-1.PNG",
+      "/projectsImage/o22-2.PNG",
+      "/projectsImage/o23-3.PNG"
+    ],
+    "duration": "JAN 2025",
+    "role": "Developer & Designer",
+    "title": "GerCep Go Game",
+    "instance": "Personal Project",
+    "tags": ["SwiftUI, Illustrator"],
+    "description": "Gercep Go is an interactive educational game designed to teach essential first-aid protocols in an engaging manner. Developed in response to noticeable gaps in first-aid knowledge—particularly among children in community and school settings—the game instructs users on how to manage 14 common injuries using simple, colorful visuals and an intuitive drag-and-drop interface. Notably, its cute design, characterized by playful, cartoon-style graphics, further enhances its appeal and accessibility for young learners. Its content is based on Indonesia’s official first-aid guidelines, ensuring both accuracy and relevance, and the game was developed using Swift Playgrounds, a beginner-friendly coding environment that supports seamless development across Mac and iPad devices.",
+    "buttonList": [
+      [
+        "More on Achievement by Conexus",
+        "https://dcse.fmipa.ugm.ac.id/?p=18331&lang=id"
+      ]
+    ]
+  },
+
+  {
+    "id": "02",
+    "imageUrl": [
+      "/projectsImage/o22-1.jpg",
+      "/projectsImage/o22-2.jpg",
+      "/projectsImage/o22-3.jpg",
+      "/projectsImage/o22-4.jpg",
+      "/projectsImage/o22-5.jpg",
+      "/projectsImage/o22-6.jpg",
+      "/projectsImage/o22-7.jpg"
+    ],
+    "duration": "JUL 2025",
+    "role": "UI/UX",
+    "title": "CareerConnect",
+    "instance": "Summer Entrepreneurship Class @NTU",
+    "tags": ["Team Project"],
+    "description": "CareerConnect is a job-matching platform designed to help fresh graduates in Singapore transition smoothly from academia to employment. Using an intuitive swipe-based interface, it connects job seekers with full-time opportunities that align with their skills and expectations.Targeting young talents from Singapore and neighboring countries, as well as SMEs often overlooked in recruitment, CareerConnect makes job hunting engaging while providing companies with eager, skilled candidates. By fostering seamless connections, we drive mutual growth and success in Singapore’s workforce.",
+    "buttonList": [
+      [
+        "More on Achievement by Conexus",
+        "https://dcse.fmipa.ugm.ac.id/?p=18331&lang=id"
+      ]
+    ]
+  },
+  {
     "id": "1",
     "imageUrl": [
       "/projectsImage/p1-1.png",
