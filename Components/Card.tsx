@@ -62,9 +62,6 @@ const Card = ({
           <p className="relative w-full text-[#bbe7f1b2] text-[14px] md:text-[16px] text-justify leading-[normal]">
             {instance}
           </p>
-          <div>async (params:type) => {
-            
-          }</div>
           <div className="w-full mb-[4px] mt-[-4px] items-start relative">
             {tags.map((tag, index) => (
               <div
